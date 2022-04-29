@@ -56,9 +56,8 @@ h6 {
     text-align: center;
 }
 
-h3 {
-    ;
-
+#alg{
+    margin-left: 5%;
 }
 
 #text {
@@ -66,4 +65,7 @@ h3 {
 }
 .kd{
     background-color: aquamarine;
+}
+#rd{
+    margin-left: 5%;
 }
