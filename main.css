@@ -1,0 +1,69 @@
+header {
+    color: aqua;
+}
+
+h1 {
+    color: blue;
+    font-style: initial;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    color: blueviolet;
+    font-style: initial;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: blueviolet;
+    font-style: initial;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    color: blueviolet;
+    font-style: initial;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5 {
+    color: blueviolet;
+    font-style: initial;
+    font-size: 20px;
+
+}
+
+.link {
+    text-align: center;
+}
+
+h6 {
+    color: blueviolet;
+    font-style: initial;
+    font-size: 30px;
+    text-align: center;
+}
+
+#sum {
+    color: blueviolet;
+    font-style: initial;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    ;
+
+}
+
+#text {
+    text-align: center;
+}
+.kd{
+    background-color: aquamarine;
+}
