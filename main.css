@@ -10,7 +10,6 @@ h1 {
 }
 
 h2 {
-    text-decoration: underline;
     color: blueviolet;
     font-style: initial;
     font-size: 30px;
@@ -40,6 +39,8 @@ h5 {
 
 .link {
     text-align: center;
+    line-height: 43px;
+
 }
 
 h6 {
@@ -56,16 +57,60 @@ h6 {
     text-align: center;
 }
 
-#alg{
+#alg {
     margin-left: 5%;
 }
 
 #text {
     text-align: center;
 }
-.kd{
+
+.kd {
     background-color: aquamarine;
 }
-#rd{
+
+#rd {
     margin-left: 5%;
+}
+
+#ss {
+    background-color: black;
+}
+
+#sr {
+    font-display: margin -1px 34px -2px 35px;
+    line-height: 21px;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+#line {
+    margin: -1px 34px -2px 35px;
+    line-height: 21px;
+}
+
+.ms {
+    border-color: rgb(45, 45, 189);
+    margin: 13px 29px 18px 35px;
+}
+
+#as {
+    margin: 13px 963px 3px 32px;
+}
+
+#sa {
+    margin: 13px 878px 3px 32px;
+}
+
+#sd {
+    line-height: 30px;
+}
+
+.mu {
+    margin: 5px 23px 3px 32px;
+    line-height: 35px;
 }
