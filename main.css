@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-    color: blue;
+    color: #0670be;
     font-style: initial;
     font-size: 50px;
     text-align: center;
@@ -15,28 +15,28 @@ h1 {
 
 h2 {
     line-height: 67px;
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 30px;
     text-align: center;
 }
 
 h3 {
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 30px;
     text-align: center;
 }
 
 h4 {
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 30px;
     text-align: center;
 }
 
 h5 {
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 20px;
 
@@ -45,32 +45,33 @@ h5 {
 .link {
     display: flex;
     justify-content: center;
-    background-color: #4747816e;
+    background-color: #e9f2fa;
     line-height: 43px;
-    margin-top: 18px;
+    margin-top: 18px; 
+    border: 1px solid #6097be; 
 }
 
 .link p {
-    color: black;
+    color: #6097be;
     margin-left: 20px;
 }
 
 .link a {
-    color: black;
+    color: #106db2;
     text-decoration: none;
     line-height: 40px;
     font-size: 20px;
 }
 
 h6 {
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 30px;
     text-align: center;
 }
 
 #sum {
-    color: blueviolet;
+    color: #0670be;
     font-style: initial;
     font-size: 20px;
     text-align: center;
@@ -89,7 +90,7 @@ h6 {
 }
 
 .kd {
-    background-color: aquamarine;
+    background-color: #e6f0f9;
 }
 
 .rd {
@@ -109,8 +110,8 @@ td {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #071840;
-    margin: 1em 0:
+    border-top: 1px solid #1365a1;
+    margin: 1em 0;
 }
 
 .sd {
@@ -152,9 +153,10 @@ td {
 
 h7 {
     line-height: 82px;
-    color: #490885;
+    color: #0670be;
     font-size: 28px;
 }
+
 .ee {
     font-size: 15px;
 }
