@@ -1,3 +1,7 @@
+body {
+    margin: 0px 40px;
+}
+
 header {
     color: aqua;
 }
@@ -10,6 +14,7 @@ h1 {
 }
 
 h2 {
+    line-height: 67px;
     color: blueviolet;
     font-style: initial;
     font-size: 30px;
@@ -34,23 +39,27 @@ h5 {
     color: blueviolet;
     font-style: initial;
     font-size: 20px;
-    margin: 32px 0px 23px 41px;
-
 
 }
 
 .link {
-    text-align: center;
-    line-height: 43px;
-    background-color: aquamarine;
-    border: 1px solid #040a3a;
-    margin: 0px 50px;
     display: flex;
     justify-content: center;
+    background-color: #4747816e;
+    line-height: 43px;
+    margin-top: 18px;
 }
 
 .link p {
-    word-spacing: 10px;
+    color: black;
+    margin-left: 20px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 h6 {
@@ -58,14 +67,6 @@ h6 {
     font-style: initial;
     font-size: 30px;
     text-align: center;
-    line-height: 64px;
-}
-
-.mm {
-    margin-right: 75px;
-    font-size: 16px;
-    font-style: initial;
-
 }
 
 #sum {
@@ -73,10 +74,14 @@ h6 {
     font-style: initial;
     font-size: 20px;
     text-align: center;
+    line-height: 0px;
 }
+
+
 
 .alg {
     margin-left: 5%;
+    line-height: 26px;
 }
 
 .text {
@@ -91,70 +96,65 @@ h6 {
     margin-left: 5%;
 }
 
-.ss {
-    background-color: black;
-}
-
-.sr {
-    font-display: margin -1px 34px -2px 35px;
-    line-height: 21px;
-
-}
-
-table {
-    width: 100%;
-    text-align: center;
-}
-
-th {
-    line-height: 55px;
-}
-
-td {
-    line-height: 30px;
-}
-
-.line {
-    margin: -1px 34px -2px 35px;
-    line-height: 21px;
-}
-
-.ms {
-    border-color: rgb(45, 45, 189);
-    margin: 13px 29px 18px 35px;
-}
-
-.as {
-    margin: 13px 963px 3px 32px;
-}
-
-.sa {
-    margin: 13px 878px 3px 32px;
-}
-
-.sd {
-    line-height: 30px;
-}
-
-.mu {
-    margin: 5px 23px 3px 32px;
-    line-height: 35px;
-}
-
 table,
 tr,
 th,
 td {
-    table-layout: auto;
     border: 1px solid;
+    line-height: 40px;
     text-align: center;
-    margin-left: 3%;
-    background-color: aliceblue;
-
 }
 
+.ms {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #071840;
+    margin: 1em 0:
+}
+
+.sd {
+    line-height: 26px;
+    margin-left: 0px;
+}
+
+.sd p {
+    text-align: center;
+}
+
+.line {
+    line-height: 26px;
+}
+
+.sa {
+    line-height: 26px;
+}
+
+.as {
+    line-height: 26px;
+}
+
+.mu {
+    line-height: 26px;
+}
+
+.mm {
+    margin-top: 20px;
+}
+
+.name,
+.emailid,
+.country,
+.message,
+.phonenumber {
+    margin-bottom: 30px;
+}
+
+h7 {
+    line-height: 82px;
+    color: #490885;
+    font-size: 28px;
+}
 .ee {
-    margin-left: 45px;
-    line-height: 64px;
-    font-size: 18px;
+    font-size: 15px;
 }
